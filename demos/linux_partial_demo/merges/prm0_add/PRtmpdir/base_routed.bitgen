@@ -1,0 +1,12 @@
+bitgen base_routed.ncd base_routed.bit -d -w 
+Release 9.2.04i_PR12 - Bitgen JTRS.J40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '2vp30.nph' in environment
+/Xilinx/ISE92i.
+   "system" is an NCD, version 3.1, device xc2vp30, package ff896, speed -7
+
+Wed Aug  4 16:40:35 2010
+
+Creating bit map...
+Saving bit stream in "base_routed.bit".
+Bitstream generation is complete.

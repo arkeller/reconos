@@ -1,0 +1,16 @@
+Reconfigation Bit Stream Verification Report.
+
+Reconfig file: prm0_add_routed_partial
+Delta file:    prm0_add_routed_full_framediff
+
+Bit Stream Information for reconfig_base.
+Number of Frames Written: 413
+Frame Ranges by Bit Map Entry:
+   162 - 403
+   1132 - 1259
+   1602 - 1644
+
+Bit Stream Information for prm0_add_routed_full_framediff.
+Number of Frames Written: 181
+Number of Frames not in reconfig bitstream:  0.
+

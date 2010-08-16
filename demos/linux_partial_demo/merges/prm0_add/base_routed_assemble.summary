@@ -1,0 +1,25 @@
+Assembly Process Summary Report.
+
+
+The purpose of the assembly script is to generate the design 
+and initial bit stream to be programmed on the fpga. 
+This report contains information associated with the assembly process.
+This report also generates information about files generated
+and will inform the user of any errors that occur.
+
+
+FILE INFORMATION.
+
++  base_routed.ncd:  Static design with reconfig holes.
++  prm0_add_routed.ncd: Active reconfiguration module design.
++  base_routed_full.ncd:  Assembled design.
++  AG_hw_task_0_blank.ncd:  Design for reseting area AG_hw_task_0.
+
+
+NUMBER OF DESIGNS WITH ERRORS: 0.
+
+Bit Files:
+   Assembled Design Bit file: base_routed_full.bit
+   PR region AG_hw_task_0 blanking bit file: AG_hw_task_0_blank.bit
+
+End Summary Report

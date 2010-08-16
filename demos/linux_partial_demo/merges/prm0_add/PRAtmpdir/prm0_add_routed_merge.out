@@ -1,0 +1,568 @@
+Load Design base_routed.ncd.
+Loading device for application Rf_Device from file '2vp30.nph' in environment
+/Xilinx/ISE92i.
+   "system" is an NCD, version 3.1, device xc2vp30, package ff896, speed -7
+Load Design prm0_add_routed.ncd.
+   "system" is an NCD, version 3.1, device xc2vp30, package ff896, speed -7
+Merging designs to generate a Reconfig design used to generate a partial bit
+stream.
+Validate that area constraints are the same in static and reconfig designs
+Analyzing "base_routed.ncd" for possible illegal routing boundary crossing.
+Analyzing "prm0_add_routed.ncd" for possible illegal routing boundary crossing.
+
+
+Preparing Macro Interface Logic for Merge.
+   Check Component busmacro_hw_task_0_10/slice0
+   Check Component busmacro_hw_task_0_10/slice1
+   Check Component busmacro_hw_task_0_10/slice2
+   Check Component busmacro_hw_task_0_10/slice3
+   Check Component busmacro_hw_task_0_11/slice0
+   Check Component busmacro_hw_task_0_11/slice1
+   Check Component busmacro_hw_task_0_11/slice2
+   Check Component busmacro_hw_task_0_11/slice3
+   Check Component busmacro_hw_task_0_20/slice0
+   Check Component busmacro_hw_task_0_20/slice1
+   Check Component busmacro_hw_task_0_20/slice2
+   Check Component busmacro_hw_task_0_20/slice3
+   Check Component busmacro_hw_task_0_12/slice0
+   Check Component busmacro_hw_task_0_12/slice1
+   Check Component busmacro_hw_task_0_12/slice2
+   Check Component busmacro_hw_task_0_12/slice3
+   Check Component busmacro_hw_task_0_21/slice0
+   Check Component busmacro_hw_task_0_21/slice1
+   Check Component busmacro_hw_task_0_21/slice2
+   Check Component busmacro_hw_task_0_21/slice3
+   Check Component busmacro_hw_task_0_13/slice0
+   Check Component busmacro_hw_task_0_13/slice1
+   Check Component busmacro_hw_task_0_13/slice2
+   Check Component busmacro_hw_task_0_13/slice3
+   Check Component busmacro_hw_task_0_30/slice0
+   Check Component busmacro_hw_task_0_30/slice1
+   Check Component busmacro_hw_task_0_30/slice2
+   Check Component busmacro_hw_task_0_30/slice3
+   Check Component busmacro_hw_task_0_22/slice0
+   Check Component busmacro_hw_task_0_22/slice1
+   Check Component busmacro_hw_task_0_22/slice2
+   Check Component busmacro_hw_task_0_22/slice3
+   Check Component busmacro_hw_task_0_14/slice0
+   Check Component busmacro_hw_task_0_14/slice1
+   Check Component busmacro_hw_task_0_14/slice2
+   Check Component busmacro_hw_task_0_14/slice3
+   Check Component busmacro_hw_task_0_31/slice0
+   Check Component busmacro_hw_task_0_31/slice1
+   Check Component busmacro_hw_task_0_31/slice2
+   Check Component busmacro_hw_task_0_31/slice3
+   Check Component busmacro_hw_task_0_23/slice0
+   Check Component busmacro_hw_task_0_23/slice1
+   Check Component busmacro_hw_task_0_23/slice2
+   Check Component busmacro_hw_task_0_23/slice3
+   Check Component busmacro_hw_task_0_15/slice0
+   Check Component busmacro_hw_task_0_15/slice1
+   Check Component busmacro_hw_task_0_15/slice2
+   Check Component busmacro_hw_task_0_15/slice3
+   Check Component busmacro_hw_task_0_24/slice0
+   Check Component busmacro_hw_task_0_24/slice1
+   Check Component busmacro_hw_task_0_24/slice2
+   Check Component busmacro_hw_task_0_24/slice3
+   Check Component busmacro_hw_task_0_16/slice0
+   Check Component busmacro_hw_task_0_16/slice1
+   Check Component busmacro_hw_task_0_16/slice2
+   Check Component busmacro_hw_task_0_16/slice3
+   Check Component busmacro_hw_task_0_25/slice0
+   Check Component busmacro_hw_task_0_25/slice1
+   Check Component busmacro_hw_task_0_25/slice2
+   Check Component busmacro_hw_task_0_25/slice3
+   Check Component busmacro_hw_task_0_17/slice0
+   Check Component busmacro_hw_task_0_17/slice1
+   Check Component busmacro_hw_task_0_17/slice2
+   Check Component busmacro_hw_task_0_17/slice3
+   Check Component busmacro_hw_task_0_26/slice0
+   Check Component busmacro_hw_task_0_26/slice1
+   Check Component busmacro_hw_task_0_26/slice2
+   Check Component busmacro_hw_task_0_26/slice3
+   Check Component busmacro_hw_task_0_18/slice0
+   Check Component busmacro_hw_task_0_18/slice1
+   Check Component busmacro_hw_task_0_18/slice2
+   Check Component busmacro_hw_task_0_18/slice3
+   Check Component busmacro_hw_task_0_27/slice0
+   Check Component busmacro_hw_task_0_27/slice1
+   Check Component busmacro_hw_task_0_27/slice2
+   Check Component busmacro_hw_task_0_27/slice3
+   Check Component busmacro_hw_task_0_19/slice0
+   Check Component busmacro_hw_task_0_19/slice1
+   Check Component busmacro_hw_task_0_19/slice2
+   Check Component busmacro_hw_task_0_19/slice3
+   Check Component busmacro_hw_task_0_28/slice0
+   Check Component busmacro_hw_task_0_28/slice1
+   Check Component busmacro_hw_task_0_28/slice2
+   Check Component busmacro_hw_task_0_28/slice3
+   Check Component busmacro_hw_task_0_29/slice0
+   Check Component busmacro_hw_task_0_29/slice1
+   Check Component busmacro_hw_task_0_29/slice2
+   Check Component busmacro_hw_task_0_29/slice3
+   Check Component busmacro_hw_task_0_0/slice0
+   Check Component busmacro_hw_task_0_0/slice1
+   Check Component busmacro_hw_task_0_0/slice2
+   Check Component busmacro_hw_task_0_0/slice3
+   Check Component busmacro_hw_task_0_1/slice0
+   Check Component busmacro_hw_task_0_1/slice1
+   Check Component busmacro_hw_task_0_1/slice2
+   Check Component busmacro_hw_task_0_1/slice3
+   Check Component busmacro_hw_task_0_2/slice0
+   Check Component busmacro_hw_task_0_2/slice1
+   Check Component busmacro_hw_task_0_2/slice2
+   Check Component busmacro_hw_task_0_2/slice3
+   Check Component busmacro_hw_task_0_3/slice0
+   Check Component busmacro_hw_task_0_3/slice1
+   Check Component busmacro_hw_task_0_3/slice2
+   Check Component busmacro_hw_task_0_3/slice3
+   Check Component busmacro_hw_task_0_4/slice0
+   Check Component busmacro_hw_task_0_4/slice1
+   Check Component busmacro_hw_task_0_4/slice2
+   Check Component busmacro_hw_task_0_4/slice3
+   Check Component busmacro_hw_task_0_5/slice0
+   Check Component busmacro_hw_task_0_5/slice1
+   Check Component busmacro_hw_task_0_5/slice2
+   Check Component busmacro_hw_task_0_5/slice3
+   Check Component busmacro_hw_task_0_6/slice0
+   Check Component busmacro_hw_task_0_6/slice1
+   Check Component busmacro_hw_task_0_6/slice2
+   Check Component busmacro_hw_task_0_6/slice3
+   Check Component busmacro_hw_task_0_7/slice0
+   Check Component busmacro_hw_task_0_7/slice1
+   Check Component busmacro_hw_task_0_7/slice2
+   Check Component busmacro_hw_task_0_7/slice3
+   Check Component busmacro_hw_task_0_8/slice0
+   Check Component busmacro_hw_task_0_8/slice1
+   Check Component busmacro_hw_task_0_8/slice2
+   Check Component busmacro_hw_task_0_8/slice3
+   Check Component busmacro_hw_task_0_9/slice0
+   Check Component busmacro_hw_task_0_9/slice1
+   Check Component busmacro_hw_task_0_9/slice2
+   Check Component busmacro_hw_task_0_9/slice3
+Completed Macro Interface Logic Preparation.
+
+Analyze legality of all nets crossing Partial Reconfig Boundary.
+   Valid crossing of bus macro net: busmacro_hw_task_0_10/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_10/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_10/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_10/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_10/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_10/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_10/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_10/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_11/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_11/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_11/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_11/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_11/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_11/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_11/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_11/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_20/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_20/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_20/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_20/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_20/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_20/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_20/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_20/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_12/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_12/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_12/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_12/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_12/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_12/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_12/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_12/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_21/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_21/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_21/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_21/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_21/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_21/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_21/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_21/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_13/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_13/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_13/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_13/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_13/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_13/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_13/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_13/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_30/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_30/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_30/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_30/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_30/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_30/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_30/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_30/line7
+   Skip VCC/GND net GLOBAL_LOGIC0 
+   Valid crossing of bus macro net: busmacro_hw_task_0_22/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_22/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_22/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_22/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_22/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_22/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_22/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_22/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_14/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_14/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_14/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_14/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_14/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_14/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_14/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_14/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_31/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_31/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_31/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_31/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_31/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_31/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_31/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_31/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_23/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_23/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_23/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_23/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_23/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_23/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_23/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_23/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_15/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_15/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_15/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_15/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_15/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_15/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_15/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_15/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_24/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_24/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_24/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_24/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_24/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_24/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_24/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_24/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_16/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_16/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_16/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_16/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_16/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_16/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_16/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_16/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_25/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_25/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_25/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_25/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_25/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_25/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_25/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_25/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_17/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_17/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_17/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_17/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_17/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_17/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_17/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_17/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_26/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_26/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_26/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_26/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_26/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_26/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_26/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_26/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_18/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_18/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_18/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_18/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_18/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_18/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_18/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_18/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_27/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_27/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_27/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_27/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_27/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_27/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_27/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_27/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_19/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_19/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_19/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_19/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_19/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_19/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_19/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_19/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_28/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_28/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_28/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_28/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_28/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_28/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_28/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_28/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_29/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_29/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_29/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_29/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_29/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_29/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_29/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_29/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_0/line4
+   Skip VCC/GND net GLOBAL_LOGIC1 
+   Valid crossing of bus macro net: busmacro_hw_task_0_0/line0
+   Valide crossing of global clock net: plb_bram_if_cntlr_1_port_BRAM_Clk
+   Valid crossing of bus macro net: busmacro_hw_task_0_0/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_0/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_0/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_0/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_0/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_0/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_1/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_1/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_1/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_1/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_1/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_1/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_1/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_1/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_2/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_2/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_2/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_2/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_2/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_2/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_2/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_2/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_3/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_3/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_3/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_3/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_3/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_3/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_3/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_3/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_4/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_4/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_4/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_4/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_4/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_4/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_4/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_4/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_5/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_5/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_5/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_5/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_5/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_5/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_5/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_5/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_6/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_6/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_6/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_6/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_6/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_6/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_6/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_6/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_7/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_7/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_7/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_7/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_7/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_7/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_7/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_7/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_8/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_8/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_8/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_8/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_8/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_8/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_8/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_8/line7
+   Valid crossing of bus macro net: busmacro_hw_task_0_9/line4
+   Valid crossing of bus macro net: busmacro_hw_task_0_9/line0
+   Valid crossing of bus macro net: busmacro_hw_task_0_9/line1
+   Valid crossing of bus macro net: busmacro_hw_task_0_9/line5
+   Valid crossing of bus macro net: busmacro_hw_task_0_9/line2
+   Valid crossing of bus macro net: busmacro_hw_task_0_9/line6
+   Valid crossing of bus macro net: busmacro_hw_task_0_9/line3
+   Valid crossing of bus macro net: busmacro_hw_task_0_9/line7
+Completed analysis of all nets crossing Partial Reconfig Boundary.
+
+Merge the logic into the target design.
+   Starting design graft.
+   Design graft complete.
+   Instantiate logic placement.
+   Completed logic placement.
+   Instantiate routing.
+   Completed routing instantiation.
+Completed Merge of logic and routing into the target design.
+
+Checking for Unrouted nets in Merged Design.
+   Net busmacro_hw_task_0_0/ff_line1 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_0/slice0, Site: SLICE_X31Y113
+      Pin DX, SLICE busmacro_hw_task_0_0/slice0, Site: SLICE_X31Y113
+   Net busmacro_hw_task_0_0/ff_line0 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_0/slice0, Site: SLICE_X31Y113
+      Pin DY, SLICE busmacro_hw_task_0_0/slice0, Site: SLICE_X31Y113
+   Net busmacro_hw_task_0_0/ff_line3 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_0/slice1, Site: SLICE_X31Y112
+      Pin DX, SLICE busmacro_hw_task_0_0/slice1, Site: SLICE_X31Y112
+   Net busmacro_hw_task_0_0/ff_line2 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_0/slice1, Site: SLICE_X31Y112
+      Pin DY, SLICE busmacro_hw_task_0_0/slice1, Site: SLICE_X31Y112
+   Net busmacro_hw_task_0_0/ff_line5 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_0/slice2, Site: SLICE_X30Y113
+      Pin DX, SLICE busmacro_hw_task_0_0/slice2, Site: SLICE_X30Y113
+   Net busmacro_hw_task_0_0/ff_line4 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_0/slice2, Site: SLICE_X30Y113
+      Pin DY, SLICE busmacro_hw_task_0_0/slice2, Site: SLICE_X30Y113
+   Net busmacro_hw_task_0_0/ff_line7 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_0/slice3, Site: SLICE_X30Y112
+      Pin DX, SLICE busmacro_hw_task_0_0/slice3, Site: SLICE_X30Y112
+   Net busmacro_hw_task_0_0/ff_line6 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_0/slice3, Site: SLICE_X30Y112
+      Pin DY, SLICE busmacro_hw_task_0_0/slice3, Site: SLICE_X30Y112
+   Net busmacro_hw_task_0_1/ff_line1 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_1/slice0, Site: SLICE_X31Y115
+      Pin DX, SLICE busmacro_hw_task_0_1/slice0, Site: SLICE_X31Y115
+   Net busmacro_hw_task_0_1/ff_line0 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_1/slice0, Site: SLICE_X31Y115
+      Pin DY, SLICE busmacro_hw_task_0_1/slice0, Site: SLICE_X31Y115
+   Net busmacro_hw_task_0_1/ff_line3 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_1/slice1, Site: SLICE_X31Y114
+      Pin DX, SLICE busmacro_hw_task_0_1/slice1, Site: SLICE_X31Y114
+   Net busmacro_hw_task_0_1/ff_line2 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_1/slice1, Site: SLICE_X31Y114
+      Pin DY, SLICE busmacro_hw_task_0_1/slice1, Site: SLICE_X31Y114
+   Net busmacro_hw_task_0_1/ff_line5 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_1/slice2, Site: SLICE_X30Y115
+      Pin DX, SLICE busmacro_hw_task_0_1/slice2, Site: SLICE_X30Y115
+   Net busmacro_hw_task_0_1/ff_line4 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_1/slice2, Site: SLICE_X30Y115
+      Pin DY, SLICE busmacro_hw_task_0_1/slice2, Site: SLICE_X30Y115
+   Net busmacro_hw_task_0_1/ff_line7 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_1/slice3, Site: SLICE_X30Y114
+      Pin DX, SLICE busmacro_hw_task_0_1/slice3, Site: SLICE_X30Y114
+   Net busmacro_hw_task_0_1/ff_line6 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_1/slice3, Site: SLICE_X30Y114
+      Pin DY, SLICE busmacro_hw_task_0_1/slice3, Site: SLICE_X30Y114
+   Net busmacro_hw_task_0_2/ff_line1 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_2/slice0, Site: SLICE_X31Y117
+      Pin DX, SLICE busmacro_hw_task_0_2/slice0, Site: SLICE_X31Y117
+   Net busmacro_hw_task_0_2/ff_line0 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_2/slice0, Site: SLICE_X31Y117
+      Pin DY, SLICE busmacro_hw_task_0_2/slice0, Site: SLICE_X31Y117
+   Net busmacro_hw_task_0_2/ff_line3 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_2/slice1, Site: SLICE_X31Y116
+      Pin DX, SLICE busmacro_hw_task_0_2/slice1, Site: SLICE_X31Y116
+   Net busmacro_hw_task_0_2/ff_line2 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_2/slice1, Site: SLICE_X31Y116
+      Pin DY, SLICE busmacro_hw_task_0_2/slice1, Site: SLICE_X31Y116
+   Net busmacro_hw_task_0_2/ff_line5 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_2/slice2, Site: SLICE_X30Y117
+      Pin DX, SLICE busmacro_hw_task_0_2/slice2, Site: SLICE_X30Y117
+   Net busmacro_hw_task_0_2/ff_line4 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_2/slice2, Site: SLICE_X30Y117
+      Pin DY, SLICE busmacro_hw_task_0_2/slice2, Site: SLICE_X30Y117
+   Net busmacro_hw_task_0_2/ff_line7 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_2/slice3, Site: SLICE_X30Y116
+      Pin DX, SLICE busmacro_hw_task_0_2/slice3, Site: SLICE_X30Y116
+   Net busmacro_hw_task_0_2/ff_line6 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_2/slice3, Site: SLICE_X30Y116
+      Pin DY, SLICE busmacro_hw_task_0_2/slice3, Site: SLICE_X30Y116
+   Net busmacro_hw_task_0_3/ff_line1 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_3/slice0, Site: SLICE_X31Y119
+      Pin DX, SLICE busmacro_hw_task_0_3/slice0, Site: SLICE_X31Y119
+   Net busmacro_hw_task_0_3/ff_line0 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_3/slice0, Site: SLICE_X31Y119
+      Pin DY, SLICE busmacro_hw_task_0_3/slice0, Site: SLICE_X31Y119
+   Net busmacro_hw_task_0_3/ff_line3 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_3/slice1, Site: SLICE_X31Y118
+      Pin DX, SLICE busmacro_hw_task_0_3/slice1, Site: SLICE_X31Y118
+   Net busmacro_hw_task_0_3/ff_line2 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_3/slice1, Site: SLICE_X31Y118
+      Pin DY, SLICE busmacro_hw_task_0_3/slice1, Site: SLICE_X31Y118
+   Net busmacro_hw_task_0_3/ff_line5 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_3/slice2, Site: SLICE_X30Y119
+      Pin DX, SLICE busmacro_hw_task_0_3/slice2, Site: SLICE_X30Y119
+   Net busmacro_hw_task_0_3/ff_line4 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_3/slice2, Site: SLICE_X30Y119
+      Pin DY, SLICE busmacro_hw_task_0_3/slice2, Site: SLICE_X30Y119
+   Net busmacro_hw_task_0_3/ff_line7 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_3/slice3, Site: SLICE_X30Y118
+      Pin DX, SLICE busmacro_hw_task_0_3/slice3, Site: SLICE_X30Y118
+   Net busmacro_hw_task_0_3/ff_line6 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_3/slice3, Site: SLICE_X30Y118
+      Pin DY, SLICE busmacro_hw_task_0_3/slice3, Site: SLICE_X30Y118
+   Net busmacro_hw_task_0_4/ff_line1 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_4/slice0, Site: SLICE_X31Y121
+      Pin DX, SLICE busmacro_hw_task_0_4/slice0, Site: SLICE_X31Y121
+   Net busmacro_hw_task_0_4/ff_line0 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_4/slice0, Site: SLICE_X31Y121
+      Pin DY, SLICE busmacro_hw_task_0_4/slice0, Site: SLICE_X31Y121
+   Net busmacro_hw_task_0_4/ff_line3 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_4/slice1, Site: SLICE_X31Y120
+      Pin DX, SLICE busmacro_hw_task_0_4/slice1, Site: SLICE_X31Y120
+   Net busmacro_hw_task_0_4/ff_line2 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_4/slice1, Site: SLICE_X31Y120
+      Pin DY, SLICE busmacro_hw_task_0_4/slice1, Site: SLICE_X31Y120
+   Net busmacro_hw_task_0_4/ff_line5 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_4/slice2, Site: SLICE_X30Y121
+      Pin DX, SLICE busmacro_hw_task_0_4/slice2, Site: SLICE_X30Y121
+   Net busmacro_hw_task_0_4/ff_line4 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_4/slice2, Site: SLICE_X30Y121
+      Pin DY, SLICE busmacro_hw_task_0_4/slice2, Site: SLICE_X30Y121
+   Net busmacro_hw_task_0_4/ff_line7 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_4/slice3, Site: SLICE_X30Y120
+      Pin DX, SLICE busmacro_hw_task_0_4/slice3, Site: SLICE_X30Y120
+   Net busmacro_hw_task_0_4/ff_line6 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_4/slice3, Site: SLICE_X30Y120
+      Pin DY, SLICE busmacro_hw_task_0_4/slice3, Site: SLICE_X30Y120
+   Net busmacro_hw_task_0_5/ff_line1 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_5/slice0, Site: SLICE_X31Y123
+      Pin DX, SLICE busmacro_hw_task_0_5/slice0, Site: SLICE_X31Y123
+   Net busmacro_hw_task_0_5/ff_line0 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_5/slice0, Site: SLICE_X31Y123
+      Pin DY, SLICE busmacro_hw_task_0_5/slice0, Site: SLICE_X31Y123
+   Net busmacro_hw_task_0_5/ff_line3 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_5/slice1, Site: SLICE_X31Y122
+      Pin DX, SLICE busmacro_hw_task_0_5/slice1, Site: SLICE_X31Y122
+   Net busmacro_hw_task_0_5/ff_line2 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_5/slice1, Site: SLICE_X31Y122
+      Pin DY, SLICE busmacro_hw_task_0_5/slice1, Site: SLICE_X31Y122
+   Net busmacro_hw_task_0_5/ff_line5 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_5/slice2, Site: SLICE_X30Y123
+      Pin DX, SLICE busmacro_hw_task_0_5/slice2, Site: SLICE_X30Y123
+   Net busmacro_hw_task_0_5/ff_line4 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_5/slice2, Site: SLICE_X30Y123
+      Pin DY, SLICE busmacro_hw_task_0_5/slice2, Site: SLICE_X30Y123
+   Net busmacro_hw_task_0_5/ff_line7 is not fully routed.
+      Pin X, SLICE busmacro_hw_task_0_5/slice3, Site: SLICE_X30Y122
+      Pin DX, SLICE busmacro_hw_task_0_5/slice3, Site: SLICE_X30Y122
+   Net busmacro_hw_task_0_5/ff_line6 is not fully routed.
+      Pin Y, SLICE busmacro_hw_task_0_5/slice3, Site: SLICE_X30Y122
+      Pin DY, SLICE busmacro_hw_task_0_5/slice3, Site: SLICE_X30Y122
+Finished checking for unrouted nets in the merged design.  48 Unroutes.
+
+Generating output designs.
+   Prepare Static Design.
+   Writing prm0_add_routed_full.ncd
+   Prepare Dynamic Design.
+   Writing prm0_add_routed_partial.ncd
+Complete output design generation.

@@ -1,0 +1,8 @@
+Load Design base_routed.ncd.
+Loading device for application Rf_Device from file '2vp30.nph' in environment
+/Xilinx/ISE92i.
+   "system" is an NCD, version 3.1, device xc2vp30, package ff896, speed -7
+
+Prepare Dynamic Blanking Design AG_hw_task_0_blank.ncd for area AG_hw_task_0.
+Completed Dynamic Blanking Design AG_hw_task_0_blank.ncd for area AG_hw_task_0.
+

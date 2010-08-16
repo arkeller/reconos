@@ -1,0 +1,45 @@
+Validation Process Summary Report.
+
+
+The purpose of the validation script is to generate all of the 
+bit stream files required by the user input and to validate that 
+the reconfiguration module bit streams are truly writing all of the 
+bit frames necessary to successfully reconfigure the part.
+This report also generates information about all files generated
+and will inform the user of any errors that occur.
+
+
+FILE INFORMATION.
+
++  base_routed.ncd:  Static design with reconfig holes.
++  prm0_sub_routed.ncd: Active reconfiguration module design.
+   prm0_sub_routed_partial: Assembled design to generate prm0_sub_routed_partial.ncd bit stream.
+      prm0_sub_routed_partial.ncd: Assembled base_routed.ncd and prm0_sub_routed_partial.ncd design.
+      prm0_sub_routed_partial.bit: Bit stream.
+      prm0_sub_routed_partial.bgn: Bitgen generated file.
+      prm0_sub_routed_partial.bitgen: Bitgen output.
+      prm0_sub_routed_merge.out: Design merge output.
+   prm0_sub_routed_full: Assembled design to generate full bit stream and test
+      prm0_sub_routed_partial.ncd frame boundaries.
+      prm0_sub_routed_full.ncd: Assembled base_routed.ncd and prm0_sub_routed_partial.ncd design.
+      prm0_sub_routed_full.bit: Bit stream.
+      prm0_sub_routed_full.bgn: Bitgen generated file.
+      prm0_sub_routed_full.bitgen: Bitgen output.
+      prm0_sub_routed_merge.out: Design merge output.
+   prm0_sub_routed_full_framediff: Bitstream deltas between base_routed and prm0_sub_routed_full.
+      Used to verify reconfig module frame boundaries.
+      prm0_sub_routed_full_framediff.bit: Partial (-r) bit stream for prm0_sub_routed_full verses base_routed.
+      prm0_sub_routed_full_framediff.bgn: Bitgen generated file.
+      prm0_sub_routed_full_framediff.bitgen: Bitgen output.
+      prm0_sub_routed_full_framediff.report: Validation report for prm0_sub_routed_partial.ncd frame boundaries.
+         Validation process finished with no boundary errors.
+
+
+NUMBER OF RECONFIGURATION DESIGNS WITH ERRORS: 0.
+
+
+Bit Files Generally Used:
+Static Design Bit file: base_routed.bit
+Dynamic Module prm0_sub_routed.ncd Bit file: prm0_sub_routed_partial.bit
+
+End Summary Report

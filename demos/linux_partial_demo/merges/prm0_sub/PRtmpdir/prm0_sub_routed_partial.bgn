@@ -1,0 +1,556 @@
+Release 9.2.04i_PR12 - Bitgen JTRS.J40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '2vp30.nph' in environment
+/Xilinx/ISE92i.
+   "system" is an NCD, version 3.1, device xc2vp30, package ff896, speed -7
+
+Wed Aug  4 16:53:45 2010
+
+/Xilinx/ISE92i/bin/lin/bitgen -g ActiveReconfig:Yes -d -w -g Compress prm0_sub_routed_partial.ncd prm0_sub_routed_partial.bit 
+
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Enabled)            |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable*              |
++----------------------+----------------------+
+| DebugBitstream       | No*                  |
++----------------------+----------------------+
+| ConfigRate           | 4*                   |
++----------------------+----------------------+
+| StartupClk           | Cclk*                |
++----------------------+----------------------+
+| DCMShutdown          | Disable*             |
++----------------------+----------------------+
+| DisableBandgap       | No*                  |
++----------------------+----------------------+
+| CclkPin              | Pullup*              |
++----------------------+----------------------+
+| DonePin              | Pullup*              |
++----------------------+----------------------+
+| HswapenPin           | Pullup*              |
++----------------------+----------------------+
+| M0Pin                | Pullup*              |
++----------------------+----------------------+
+| M1Pin                | Pullup*              |
++----------------------+----------------------+
+| M2Pin                | Pullup*              |
++----------------------+----------------------+
+| PowerdownPin         | Pullup*              |
++----------------------+----------------------+
+| ProgPin              | Pullup*              |
++----------------------+----------------------+
+| TckPin               | Pullup*              |
++----------------------+----------------------+
+| TdiPin               | Pullup*              |
++----------------------+----------------------+
+| TdoPin               | Pullup*              |
++----------------------+----------------------+
+| TmsPin               | Pullup*              |
++----------------------+----------------------+
+| UnusedPin            | Pulldown*            |
++----------------------+----------------------+
+| GWE_cycle            | 6*                   |
++----------------------+----------------------+
+| GTS_cycle            | 5*                   |
++----------------------+----------------------+
+| LCK_cycle            | NoWait*              |
++----------------------+----------------------+
+| Match_cycle          | Auto*                |
++----------------------+----------------------+
+| DONE_cycle           | 4*                   |
++----------------------+----------------------+
+| Persist              | No*                  |
++----------------------+----------------------+
+| DriveDone            | No*                  |
++----------------------+----------------------+
+| DonePipe             | No*                  |
++----------------------+----------------------+
+| Security             | None*                |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF*          |
++----------------------+----------------------+
+| ActivateGclk         | No*                  |
++----------------------+----------------------+
+| ActiveReconfig       | Yes                  |
++----------------------+----------------------+
+| PartialMask0         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask1         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask2         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialGclk          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialLeft          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialRight         | (Not Specified)*     |
++----------------------+----------------------+
+| Encrypt              | No*                  |
++----------------------+----------------------+
+| Key0                 | pick*                |
++----------------------+----------------------+
+| Key1                 | pick*                |
++----------------------+----------------------+
+| Key2                 | pick*                |
++----------------------+----------------------+
+| Key3                 | pick*                |
++----------------------+----------------------+
+| Key4                 | pick*                |
++----------------------+----------------------+
+| Key5                 | pick*                |
++----------------------+----------------------+
+| Keyseq0              | M*                   |
++----------------------+----------------------+
+| Keyseq1              | M*                   |
++----------------------+----------------------+
+| Keyseq2              | M*                   |
++----------------------+----------------------+
+| Keyseq3              | M*                   |
++----------------------+----------------------+
+| Keyseq4              | M*                   |
++----------------------+----------------------+
+| Keyseq5              | M*                   |
++----------------------+----------------------+
+| KeyFile              | (Not Specified)*     |
++----------------------+----------------------+
+| StartKey             | 0*                   |
++----------------------+----------------------+
+| StartCBC             | pick*                |
++----------------------+----------------------+
+| FreezeDCI            | No*                  |
++----------------------+----------------------+
+| DCIUpdateMode        | AsRequired*          |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No*                  |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+Writing out a partial bitstream for module AG_hw_task_0.
+Creating bit map...
+Saving bit stream in "prm0_sub_routed_partial.bit".
+Using PartialMask0 = 0000000000000
+Using PartialMask1 = 00
+Using PartialMask2 = 00
+Load Column 162 : 0 9 0
+Load Column 163 : 0 9 1
+Load Column 164 : 0 9 2
+Load Column 165 : 0 9 3
+Load Column 166 : 0 9 4
+Load Column 167 : 0 9 5
+Load Column 168 : 0 9 6
+Load Column 169 : 0 9 7
+Load Column 170 : 0 9 8
+Load Column 171 : 0 9 9
+Load Column 172 : 0 9 10
+Load Column 173 : 0 9 11
+Load Column 174 : 0 9 12
+Load Column 175 : 0 9 13
+Load Column 176 : 0 9 14
+Load Column 177 : 0 9 15
+Load Column 178 : 0 9 16
+Load Column 179 : 0 9 17
+Load Column 180 : 0 9 18
+Load Column 181 : 0 9 19
+Load Column 182 : 0 9 20
+Load Column 183 : 0 9 21
+Load Column 184 : 0 10 0
+Load Column 185 : 0 10 1
+Load Column 186 : 0 10 2
+Load Column 187 : 0 10 3
+Load Column 188 : 0 10 4
+Load Column 189 : 0 10 5
+Load Column 190 : 0 10 6
+Load Column 191 : 0 10 7
+Load Column 192 : 0 10 8
+Load Column 193 : 0 10 9
+Load Column 194 : 0 10 10
+Load Column 195 : 0 10 11
+Load Column 196 : 0 10 12
+Load Column 197 : 0 10 13
+Load Column 198 : 0 10 14
+Load Column 199 : 0 10 15
+Load Column 200 : 0 10 16
+Load Column 201 : 0 10 17
+Load Column 202 : 0 10 18
+Load Column 203 : 0 10 19
+Load Column 204 : 0 10 20
+Load Column 205 : 0 10 21
+Load Column 206 : 0 11 0
+Load Column 207 : 0 11 1
+Load Column 208 : 0 11 2
+Load Column 209 : 0 11 3
+Load Column 210 : 0 11 4
+Load Column 211 : 0 11 5
+Load Column 212 : 0 11 6
+Load Column 213 : 0 11 7
+Load Column 214 : 0 11 8
+Load Column 215 : 0 11 9
+Load Column 216 : 0 11 10
+Load Column 217 : 0 11 11
+Load Column 218 : 0 11 12
+Load Column 219 : 0 11 13
+Load Column 220 : 0 11 14
+Load Column 221 : 0 11 15
+Load Column 222 : 0 11 16
+Load Column 223 : 0 11 17
+Load Column 224 : 0 11 18
+Load Column 225 : 0 11 19
+Load Column 226 : 0 11 20
+Load Column 227 : 0 11 21
+Load Column 228 : 0 12 0
+Load Column 229 : 0 12 1
+Load Column 230 : 0 12 2
+Load Column 231 : 0 12 3
+Load Column 232 : 0 12 4
+Load Column 233 : 0 12 5
+Load Column 234 : 0 12 6
+Load Column 235 : 0 12 7
+Load Column 236 : 0 12 8
+Load Column 237 : 0 12 9
+Load Column 238 : 0 12 10
+Load Column 239 : 0 12 11
+Load Column 240 : 0 12 12
+Load Column 241 : 0 12 13
+Load Column 242 : 0 12 14
+Load Column 243 : 0 12 15
+Load Column 244 : 0 12 16
+Load Column 245 : 0 12 17
+Load Column 246 : 0 12 18
+Load Column 247 : 0 12 19
+Load Column 248 : 0 12 20
+Load Column 249 : 0 12 21
+Load Column 250 : 0 13 0
+Load Column 251 : 0 13 1
+Load Column 252 : 0 13 2
+Load Column 253 : 0 13 3
+Load Column 254 : 0 13 4
+Load Column 255 : 0 13 5
+Load Column 256 : 0 13 6
+Load Column 257 : 0 13 7
+Load Column 258 : 0 13 8
+Load Column 259 : 0 13 9
+Load Column 260 : 0 13 10
+Load Column 261 : 0 13 11
+Load Column 262 : 0 13 12
+Load Column 263 : 0 13 13
+Load Column 264 : 0 13 14
+Load Column 265 : 0 13 15
+Load Column 266 : 0 13 16
+Load Column 267 : 0 13 17
+Load Column 268 : 0 13 18
+Load Column 269 : 0 13 19
+Load Column 270 : 0 13 20
+Load Column 271 : 0 13 21
+Load Column 272 : 0 14 0
+Load Column 273 : 0 14 1
+Load Column 274 : 0 14 2
+Load Column 275 : 0 14 3
+Load Column 276 : 0 14 4
+Load Column 277 : 0 14 5
+Load Column 278 : 0 14 6
+Load Column 279 : 0 14 7
+Load Column 280 : 0 14 8
+Load Column 281 : 0 14 9
+Load Column 282 : 0 14 10
+Load Column 283 : 0 14 11
+Load Column 284 : 0 14 12
+Load Column 285 : 0 14 13
+Load Column 286 : 0 14 14
+Load Column 287 : 0 14 15
+Load Column 288 : 0 14 16
+Load Column 289 : 0 14 17
+Load Column 290 : 0 14 18
+Load Column 291 : 0 14 19
+Load Column 292 : 0 14 20
+Load Column 293 : 0 14 21
+Load Column 294 : 0 15 0
+Load Column 295 : 0 15 1
+Load Column 296 : 0 15 2
+Load Column 297 : 0 15 3
+Load Column 298 : 0 15 4
+Load Column 299 : 0 15 5
+Load Column 300 : 0 15 6
+Load Column 301 : 0 15 7
+Load Column 302 : 0 15 8
+Load Column 303 : 0 15 9
+Load Column 304 : 0 15 10
+Load Column 305 : 0 15 11
+Load Column 306 : 0 15 12
+Load Column 307 : 0 15 13
+Load Column 308 : 0 15 14
+Load Column 309 : 0 15 15
+Load Column 310 : 0 15 16
+Load Column 311 : 0 15 17
+Load Column 312 : 0 15 18
+Load Column 313 : 0 15 19
+Load Column 314 : 0 15 20
+Load Column 315 : 0 15 21
+Load Column 316 : 0 16 0
+Load Column 317 : 0 16 1
+Load Column 318 : 0 16 2
+Load Column 319 : 0 16 3
+Load Column 320 : 0 16 4
+Load Column 321 : 0 16 5
+Load Column 322 : 0 16 6
+Load Column 323 : 0 16 7
+Load Column 324 : 0 16 8
+Load Column 325 : 0 16 9
+Load Column 326 : 0 16 10
+Load Column 327 : 0 16 11
+Load Column 328 : 0 16 12
+Load Column 329 : 0 16 13
+Load Column 330 : 0 16 14
+Load Column 331 : 0 16 15
+Load Column 332 : 0 16 16
+Load Column 333 : 0 16 17
+Load Column 334 : 0 16 18
+Load Column 335 : 0 16 19
+Load Column 336 : 0 16 20
+Load Column 337 : 0 16 21
+Load Column 338 : 0 17 0
+Load Column 339 : 0 17 1
+Load Column 340 : 0 17 2
+Load Column 341 : 0 17 3
+Load Column 342 : 0 17 4
+Load Column 343 : 0 17 5
+Load Column 344 : 0 17 6
+Load Column 345 : 0 17 7
+Load Column 346 : 0 17 8
+Load Column 347 : 0 17 9
+Load Column 348 : 0 17 10
+Load Column 349 : 0 17 11
+Load Column 350 : 0 17 12
+Load Column 351 : 0 17 13
+Load Column 352 : 0 17 14
+Load Column 353 : 0 17 15
+Load Column 354 : 0 17 16
+Load Column 355 : 0 17 17
+Load Column 356 : 0 17 18
+Load Column 357 : 0 17 19
+Load Column 358 : 0 17 20
+Load Column 359 : 0 17 21
+Load Column 360 : 0 18 0
+Load Column 361 : 0 18 1
+Load Column 362 : 0 18 2
+Load Column 363 : 0 18 3
+Load Column 364 : 0 18 4
+Load Column 365 : 0 18 5
+Load Column 366 : 0 18 6
+Load Column 367 : 0 18 7
+Load Column 368 : 0 18 8
+Load Column 369 : 0 18 9
+Load Column 370 : 0 18 10
+Load Column 371 : 0 18 11
+Load Column 372 : 0 18 12
+Load Column 373 : 0 18 13
+Load Column 374 : 0 18 14
+Load Column 375 : 0 18 15
+Load Column 376 : 0 18 16
+Load Column 377 : 0 18 17
+Load Column 378 : 0 18 18
+Load Column 379 : 0 18 19
+Load Column 380 : 0 18 20
+Load Column 381 : 0 18 21
+Load Column 382 : 0 19 0
+Load Column 383 : 0 19 1
+Load Column 384 : 0 19 2
+Load Column 385 : 0 19 3
+Load Column 386 : 0 19 4
+Load Column 387 : 0 19 5
+Load Column 388 : 0 19 6
+Load Column 389 : 0 19 7
+Load Column 390 : 0 19 8
+Load Column 391 : 0 19 9
+Load Column 392 : 0 19 10
+Load Column 393 : 0 19 11
+Load Column 394 : 0 19 12
+Load Column 395 : 0 19 13
+Load Column 396 : 0 19 14
+Load Column 397 : 0 19 15
+Load Column 398 : 0 19 16
+Load Column 399 : 0 19 17
+Load Column 400 : 0 19 18
+Load Column 401 : 0 19 19
+Load Column 402 : 0 19 20
+Load Column 403 : 0 19 21
+Load Column 1132 : 1 1 0
+Load Column 1133 : 1 1 1
+Load Column 1134 : 1 1 2
+Load Column 1135 : 1 1 3
+Load Column 1136 : 1 1 4
+Load Column 1137 : 1 1 5
+Load Column 1138 : 1 1 6
+Load Column 1139 : 1 1 7
+Load Column 1140 : 1 1 8
+Load Column 1141 : 1 1 9
+Load Column 1142 : 1 1 10
+Load Column 1143 : 1 1 11
+Load Column 1144 : 1 1 12
+Load Column 1145 : 1 1 13
+Load Column 1146 : 1 1 14
+Load Column 1147 : 1 1 15
+Load Column 1148 : 1 1 16
+Load Column 1149 : 1 1 17
+Load Column 1150 : 1 1 18
+Load Column 1151 : 1 1 19
+Load Column 1152 : 1 1 20
+Load Column 1153 : 1 1 21
+Load Column 1154 : 1 1 22
+Load Column 1155 : 1 1 23
+Load Column 1156 : 1 1 24
+Load Column 1157 : 1 1 25
+Load Column 1158 : 1 1 26
+Load Column 1159 : 1 1 27
+Load Column 1160 : 1 1 28
+Load Column 1161 : 1 1 29
+Load Column 1162 : 1 1 30
+Load Column 1163 : 1 1 31
+Load Column 1164 : 1 1 32
+Load Column 1165 : 1 1 33
+Load Column 1166 : 1 1 34
+Load Column 1167 : 1 1 35
+Load Column 1168 : 1 1 36
+Load Column 1169 : 1 1 37
+Load Column 1170 : 1 1 38
+Load Column 1171 : 1 1 39
+Load Column 1172 : 1 1 40
+Load Column 1173 : 1 1 41
+Load Column 1174 : 1 1 42
+Load Column 1175 : 1 1 43
+Load Column 1176 : 1 1 44
+Load Column 1177 : 1 1 45
+Load Column 1178 : 1 1 46
+Load Column 1179 : 1 1 47
+Load Column 1180 : 1 1 48
+Load Column 1181 : 1 1 49
+Load Column 1182 : 1 1 50
+Load Column 1183 : 1 1 51
+Load Column 1184 : 1 1 52
+Load Column 1185 : 1 1 53
+Load Column 1186 : 1 1 54
+Load Column 1187 : 1 1 55
+Load Column 1188 : 1 1 56
+Load Column 1189 : 1 1 57
+Load Column 1190 : 1 1 58
+Load Column 1191 : 1 1 59
+Load Column 1192 : 1 1 60
+Load Column 1193 : 1 1 61
+Load Column 1194 : 1 1 62
+Load Column 1195 : 1 1 63
+Load Column 1196 : 1 2 0
+Load Column 1197 : 1 2 1
+Load Column 1198 : 1 2 2
+Load Column 1199 : 1 2 3
+Load Column 1200 : 1 2 4
+Load Column 1201 : 1 2 5
+Load Column 1202 : 1 2 6
+Load Column 1203 : 1 2 7
+Load Column 1204 : 1 2 8
+Load Column 1205 : 1 2 9
+Load Column 1206 : 1 2 10
+Load Column 1207 : 1 2 11
+Load Column 1208 : 1 2 12
+Load Column 1209 : 1 2 13
+Load Column 1210 : 1 2 14
+Load Column 1211 : 1 2 15
+Load Column 1212 : 1 2 16
+Load Column 1213 : 1 2 17
+Load Column 1214 : 1 2 18
+Load Column 1215 : 1 2 19
+Load Column 1216 : 1 2 20
+Load Column 1217 : 1 2 21
+Load Column 1218 : 1 2 22
+Load Column 1219 : 1 2 23
+Load Column 1220 : 1 2 24
+Load Column 1221 : 1 2 25
+Load Column 1222 : 1 2 26
+Load Column 1223 : 1 2 27
+Load Column 1224 : 1 2 28
+Load Column 1225 : 1 2 29
+Load Column 1226 : 1 2 30
+Load Column 1227 : 1 2 31
+Load Column 1228 : 1 2 32
+Load Column 1229 : 1 2 33
+Load Column 1230 : 1 2 34
+Load Column 1231 : 1 2 35
+Load Column 1232 : 1 2 36
+Load Column 1233 : 1 2 37
+Load Column 1234 : 1 2 38
+Load Column 1235 : 1 2 39
+Load Column 1236 : 1 2 40
+Load Column 1237 : 1 2 41
+Load Column 1238 : 1 2 42
+Load Column 1239 : 1 2 43
+Load Column 1240 : 1 2 44
+Load Column 1241 : 1 2 45
+Load Column 1242 : 1 2 46
+Load Column 1243 : 1 2 47
+Load Column 1244 : 1 2 48
+Load Column 1245 : 1 2 49
+Load Column 1246 : 1 2 50
+Load Column 1247 : 1 2 51
+Load Column 1248 : 1 2 52
+Load Column 1249 : 1 2 53
+Load Column 1250 : 1 2 54
+Load Column 1251 : 1 2 55
+Load Column 1252 : 1 2 56
+Load Column 1253 : 1 2 57
+Load Column 1254 : 1 2 58
+Load Column 1255 : 1 2 59
+Load Column 1256 : 1 2 60
+Load Column 1257 : 1 2 61
+Load Column 1258 : 1 2 62
+Load Column 1259 : 1 2 63
+Load Column 1602 : 2 1 0
+Load Column 1603 : 2 1 1
+Load Column 1604 : 2 1 2
+Load Column 1605 : 2 1 3
+Load Column 1606 : 2 1 4
+Load Column 1607 : 2 1 5
+Load Column 1608 : 2 1 6
+Load Column 1609 : 2 1 7
+Load Column 1610 : 2 1 8
+Load Column 1611 : 2 1 9
+Load Column 1612 : 2 1 10
+Load Column 1613 : 2 1 11
+Load Column 1614 : 2 1 12
+Load Column 1615 : 2 1 13
+Load Column 1616 : 2 1 14
+Load Column 1617 : 2 1 15
+Load Column 1618 : 2 1 16
+Load Column 1619 : 2 1 17
+Load Column 1620 : 2 1 18
+Load Column 1621 : 2 1 19
+Load Column 1622 : 2 1 20
+Load Column 1623 : 2 1 21
+Load Column 1624 : 2 2 0
+Load Column 1625 : 2 2 1
+Load Column 1626 : 2 2 2
+Load Column 1627 : 2 2 3
+Load Column 1628 : 2 2 4
+Load Column 1629 : 2 2 5
+Load Column 1630 : 2 2 6
+Load Column 1631 : 2 2 7
+Load Column 1632 : 2 2 8
+Load Column 1633 : 2 2 9
+Load Column 1634 : 2 2 10
+Load Column 1635 : 2 2 11
+Load Column 1636 : 2 2 12
+Load Column 1637 : 2 2 13
+Load Column 1638 : 2 2 14
+Load Column 1639 : 2 2 15
+Load Column 1640 : 2 2 16
+Load Column 1641 : 2 2 17
+Load Column 1642 : 2 2 18
+Load Column 1643 : 2 2 19
+Load Column 1644 : 2 2 20
+Load Column 1645 : 2 2 21
+Bitstream generation is complete.

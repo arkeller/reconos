@@ -1,0 +1,335 @@
+Release 9.2.04i_PR12 - Bitgen JTRS.J40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '2vp30.nph' in environment
+/Xilinx/ISE92i.
+   "system" is an NCD, version 3.1, device xc2vp30, package ff896, speed -7
+
+Wed Aug  4 16:55:46 2010
+
+/Xilinx/ISE92i/bin/lin/bitgen -r base_routed.bit -d -w prm0_sub_routed_full.ncd prm0_sub_routed_full_framediff.bit 
+
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Not Specified)*     |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable*              |
++----------------------+----------------------+
+| DebugBitstream       | No*                  |
++----------------------+----------------------+
+| ConfigRate           | 4*                   |
++----------------------+----------------------+
+| StartupClk           | Cclk*                |
++----------------------+----------------------+
+| DCMShutdown          | Disable*             |
++----------------------+----------------------+
+| DisableBandgap       | No*                  |
++----------------------+----------------------+
+| CclkPin              | Pullup*              |
++----------------------+----------------------+
+| DonePin              | Pullup*              |
++----------------------+----------------------+
+| HswapenPin           | Pullup*              |
++----------------------+----------------------+
+| M0Pin                | Pullup*              |
++----------------------+----------------------+
+| M1Pin                | Pullup*              |
++----------------------+----------------------+
+| M2Pin                | Pullup*              |
++----------------------+----------------------+
+| PowerdownPin         | Pullup*              |
++----------------------+----------------------+
+| ProgPin              | Pullup*              |
++----------------------+----------------------+
+| TckPin               | Pullup*              |
++----------------------+----------------------+
+| TdiPin               | Pullup*              |
++----------------------+----------------------+
+| TdoPin               | Pullup*              |
++----------------------+----------------------+
+| TmsPin               | Pullup*              |
++----------------------+----------------------+
+| UnusedPin            | Pulldown*            |
++----------------------+----------------------+
+| GWE_cycle            | 6*                   |
++----------------------+----------------------+
+| GTS_cycle            | 5*                   |
++----------------------+----------------------+
+| LCK_cycle            | NoWait*              |
++----------------------+----------------------+
+| Match_cycle          | Auto*                |
++----------------------+----------------------+
+| DONE_cycle           | 4*                   |
++----------------------+----------------------+
+| Persist              | No*                  |
++----------------------+----------------------+
+| DriveDone            | No*                  |
++----------------------+----------------------+
+| DonePipe             | No*                  |
++----------------------+----------------------+
+| Security             | None*                |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF*          |
++----------------------+----------------------+
+| ActivateGclk         | No*                  |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| PartialMask0         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask1         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialMask2         | (Not Specified)*     |
++----------------------+----------------------+
+| PartialGclk          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialLeft          | (Not Specified)*     |
++----------------------+----------------------+
+| PartialRight         | (Not Specified)*     |
++----------------------+----------------------+
+| Encrypt              | No*                  |
++----------------------+----------------------+
+| Key0                 | pick*                |
++----------------------+----------------------+
+| Key1                 | pick*                |
++----------------------+----------------------+
+| Key2                 | pick*                |
++----------------------+----------------------+
+| Key3                 | pick*                |
++----------------------+----------------------+
+| Key4                 | pick*                |
++----------------------+----------------------+
+| Key5                 | pick*                |
++----------------------+----------------------+
+| Keyseq0              | M*                   |
++----------------------+----------------------+
+| Keyseq1              | M*                   |
++----------------------+----------------------+
+| Keyseq2              | M*                   |
++----------------------+----------------------+
+| Keyseq3              | M*                   |
++----------------------+----------------------+
+| Keyseq4              | M*                   |
++----------------------+----------------------+
+| Keyseq5              | M*                   |
++----------------------+----------------------+
+| KeyFile              | (Not Specified)*     |
++----------------------+----------------------+
+| StartKey             | 0*                   |
++----------------------+----------------------+
+| StartCBC             | pick*                |
++----------------------+----------------------+
+| FreezeDCI            | No*                  |
++----------------------+----------------------+
+| DCIUpdateMode        | AsRequired*          |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No*                  |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+Creating bit map...
+Loading bitfile base_routed.bit...
+Saving bit stream in "prm0_sub_routed_full_framediff.bit".
+Making partial bitfile...
+Load Column 186 : 0 10 2
+Load Column 190 : 0 10 6
+Load Column 191 : 0 10 7
+Load Column 198 : 0 10 14
+Load Column 199 : 0 10 15
+Load Column 200 : 0 10 16
+Load Column 201 : 0 10 17
+Load Column 202 : 0 10 18
+Load Column 204 : 0 10 20
+Load Column 207 : 0 11 1
+Load Column 209 : 0 11 3
+Load Column 212 : 0 11 6
+Load Column 213 : 0 11 7
+Load Column 214 : 0 11 8
+Load Column 215 : 0 11 9
+Load Column 216 : 0 11 10
+Load Column 217 : 0 11 11
+Load Column 218 : 0 11 12
+Load Column 219 : 0 11 13
+Load Column 220 : 0 11 14
+Load Column 221 : 0 11 15
+Load Column 222 : 0 11 16
+Load Column 223 : 0 11 17
+Load Column 242 : 0 12 14
+Load Column 243 : 0 12 15
+Load Column 244 : 0 12 16
+Load Column 245 : 0 12 17
+Load Column 246 : 0 12 18
+Load Column 248 : 0 12 20
+Load Column 252 : 0 13 2
+Load Column 256 : 0 13 6
+Load Column 257 : 0 13 7
+Load Column 264 : 0 13 14
+Load Column 265 : 0 13 15
+Load Column 266 : 0 13 16
+Load Column 267 : 0 13 17
+Load Column 268 : 0 13 18
+Load Column 269 : 0 13 19
+Load Column 270 : 0 13 20
+Load Column 271 : 0 13 21
+Load Column 272 : 0 14 0
+Load Column 273 : 0 14 1
+Load Column 274 : 0 14 2
+Load Column 275 : 0 14 3
+Load Column 276 : 0 14 4
+Load Column 277 : 0 14 5
+Load Column 278 : 0 14 6
+Load Column 279 : 0 14 7
+Load Column 280 : 0 14 8
+Load Column 281 : 0 14 9
+Load Column 282 : 0 14 10
+Load Column 283 : 0 14 11
+Load Column 284 : 0 14 12
+Load Column 285 : 0 14 13
+Load Column 286 : 0 14 14
+Load Column 287 : 0 14 15
+Load Column 288 : 0 14 16
+Load Column 289 : 0 14 17
+Load Column 290 : 0 14 18
+Load Column 291 : 0 14 19
+Load Column 292 : 0 14 20
+Load Column 293 : 0 14 21
+Load Column 294 : 0 15 0
+Load Column 295 : 0 15 1
+Load Column 296 : 0 15 2
+Load Column 297 : 0 15 3
+Load Column 298 : 0 15 4
+Load Column 299 : 0 15 5
+Load Column 300 : 0 15 6
+Load Column 301 : 0 15 7
+Load Column 302 : 0 15 8
+Load Column 303 : 0 15 9
+Load Column 304 : 0 15 10
+Load Column 305 : 0 15 11
+Load Column 306 : 0 15 12
+Load Column 307 : 0 15 13
+Load Column 308 : 0 15 14
+Load Column 309 : 0 15 15
+Load Column 310 : 0 15 16
+Load Column 311 : 0 15 17
+Load Column 312 : 0 15 18
+Load Column 314 : 0 15 20
+Load Column 316 : 0 16 0
+Load Column 317 : 0 16 1
+Load Column 318 : 0 16 2
+Load Column 319 : 0 16 3
+Load Column 320 : 0 16 4
+Load Column 321 : 0 16 5
+Load Column 322 : 0 16 6
+Load Column 323 : 0 16 7
+Load Column 324 : 0 16 8
+Load Column 325 : 0 16 9
+Load Column 326 : 0 16 10
+Load Column 327 : 0 16 11
+Load Column 328 : 0 16 12
+Load Column 329 : 0 16 13
+Load Column 330 : 0 16 14
+Load Column 331 : 0 16 15
+Load Column 332 : 0 16 16
+Load Column 333 : 0 16 17
+Load Column 334 : 0 16 18
+Load Column 335 : 0 16 19
+Load Column 336 : 0 16 20
+Load Column 337 : 0 16 21
+Load Column 338 : 0 17 0
+Load Column 339 : 0 17 1
+Load Column 340 : 0 17 2
+Load Column 341 : 0 17 3
+Load Column 342 : 0 17 4
+Load Column 343 : 0 17 5
+Load Column 344 : 0 17 6
+Load Column 345 : 0 17 7
+Load Column 346 : 0 17 8
+Load Column 347 : 0 17 9
+Load Column 348 : 0 17 10
+Load Column 349 : 0 17 11
+Load Column 350 : 0 17 12
+Load Column 351 : 0 17 13
+Load Column 352 : 0 17 14
+Load Column 353 : 0 17 15
+Load Column 354 : 0 17 16
+Load Column 355 : 0 17 17
+Load Column 356 : 0 17 18
+Load Column 357 : 0 17 19
+Load Column 358 : 0 17 20
+Load Column 359 : 0 17 21
+Load Column 364 : 0 18 4
+Load Column 365 : 0 18 5
+Load Column 366 : 0 18 6
+Load Column 367 : 0 18 7
+Load Column 374 : 0 18 14
+Load Column 375 : 0 18 15
+Load Column 376 : 0 18 16
+Load Column 377 : 0 18 17
+Load Column 378 : 0 18 18
+Load Column 379 : 0 18 19
+Load Column 380 : 0 18 20
+Load Column 381 : 0 18 21
+Load Column 383 : 0 19 1
+Load Column 384 : 0 19 2
+Load Column 390 : 0 19 8
+Load Column 391 : 0 19 9
+Load Column 392 : 0 19 10
+Load Column 393 : 0 19 11
+Load Column 394 : 0 19 12
+Load Column 395 : 0 19 13
+Load Column 396 : 0 19 14
+Load Column 397 : 0 19 15
+Load Column 398 : 0 19 16
+Load Column 399 : 0 19 17
+Load Column 400 : 0 19 18
+Load Column 401 : 0 19 19
+Load Column 402 : 0 19 20
+Load Column 1602 : 2 1 0
+Load Column 1603 : 2 1 1
+Load Column 1605 : 2 1 3
+Load Column 1606 : 2 1 4
+Load Column 1607 : 2 1 5
+Load Column 1610 : 2 1 8
+Load Column 1611 : 2 1 9
+Load Column 1612 : 2 1 10
+Load Column 1613 : 2 1 11
+Load Column 1614 : 2 1 12
+Load Column 1615 : 2 1 13
+Load Column 1616 : 2 1 14
+Load Column 1617 : 2 1 15
+Load Column 1618 : 2 1 16
+Load Column 1619 : 2 1 17
+Load Column 1620 : 2 1 18
+Load Column 1621 : 2 1 19
+Load Column 1622 : 2 1 20
+Load Column 1623 : 2 1 21
+Load Column 1624 : 2 2 0
+Load Column 1625 : 2 2 1
+Load Column 1627 : 2 2 3
+Load Column 1628 : 2 2 4
+Load Column 1629 : 2 2 5
+Load Column 1630 : 2 2 6
+Load Column 1631 : 2 2 7
+Load Column 1632 : 2 2 8
+Load Column 1633 : 2 2 9
+Load Column 1634 : 2 2 10
+Load Column 1635 : 2 2 11
+Load Column 1636 : 2 2 12
+Load Column 1637 : 2 2 13
+Load Column 1638 : 2 2 14
+Load Column 1639 : 2 2 15
+Load Column 1640 : 2 2 16
+Load Column 1641 : 2 2 17
+Load Column 1642 : 2 2 18
+Load Column 1643 : 2 2 19
+Load Column 1644 : 2 2 20
+Load Column 1645 : 2 2 21
+There were 193 frames different between base_routed.bit and
+prm0_sub_routed_full.ncd.
+Bitstream generation is complete.
