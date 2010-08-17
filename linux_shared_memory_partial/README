@@ -1,0 +1,21 @@
+** These instructions are out of my head, e.g., most likely there will be steps missing! **
+
+This directory contains most of the files needed for a linux partial reconfiguration that supports shared memory.
+It is a very silly application that has 1 hw slot and 2 hw threads.
+The test_thread receives a message on the tx address and copies it to the rx address
+The a_thread receives a message on the tx address and copies it to the rx address + 16 (just to see the difference...)
+If you have a look on the source code ignore the initialization value (I need it for a different project...)
+
+1. Verify that in the file shared_new_make.rprj the Variable EDK_BASE_DIR points to the reference design provided in the hw directory
+2. Copy the files in the hw/tools directory to your "normal" $RECONOS/tools/python directory
+3. cd hw
+4. make all
+This will take a while...
+and generates you the full and partial bit streams in a newly created "merge" directory.
+The "important" files in this directory are
+prm0_a_thread/base_routed_full.bit (a complete bit file, can be used as initial download)
+prm0_a_thread/prm0_a_thread_routed_partial.bit (the partial bit file, can be used for re-configuration)
+prm0_test_thread/base_routed_full.bit
+prm0_test_thread/prm0_test_thread_routed_partial.bit
+
+Have a look at the sw/README for Instructions on the sw.

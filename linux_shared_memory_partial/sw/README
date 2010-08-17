@@ -1,0 +1,32 @@
+1. Verify that your $PATH variable contains the directory of your cross compiler
+for me it is: PATH=/opt/crosstool/gcc-4.1.2-glibc-2.3.6/powerpc-405-linux-gnu/bin/:$PATH
+
+2. compile kernel with
+tar -xzf linux_kernel
+cd linux-2.6.27-rc9-xlnx
+If you've created your own hardware copy the device tree to the kernel: cp edk-static/ppc405_0/libsrc/device-tree/xilinx.dts arch/powerpc/boot/dts/virtex405-xup-opb-eth-tft-cf.dts
+make ARCH=powerpc CROSS_COMPILE=powerpc-405-linux-gnu- simpleImage.virtex405-xup-opb-eth-tft-cf
+
+3. Compile modules with
+cd osif | dcrraw | getpgd
+Verify that the KERNELDIR variable points to the kernel you've just compiled
+make
+
+4. Compile the reconos library
+cd libreconos
+make
+
+5. Compile the test application
+powerpc-405-linux-gnu-gcc -o test_shared_mem test_shared_mem.c -I libreconos/include/ -L libreconos/lib -l reconos -l rt
+
+6. Put the test application and your modules on the rootfs
+how to create a rootfs: http://pc-techinf-4.cs.upb.de/twiki/bin/view/ReconOS/LinuxOnXUP
+steps "lokales Ethernet einrichten", "Root-FS vorbereiten und über NFS exportieren"
+you might also be interested in the step "crosstools installieren"
+
+7. download the .bit file and the .elf file (the board should be connected to your pc with a) serial interface, b) Ethernet, c) USB
+dow base_routed_full.bit
+dow simpleImage.virtex405-xup-opb-eth-tft-cf.elf
+
+note: if it does not boot: try again, try switching off and on the board an try again, try again without switchin on off the board, etc...
+ 

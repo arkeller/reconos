@@ -1,0 +1,90 @@
+----------------------------------------------------------------------------------
+-- Company:  Uni Paderborn 
+-- Engineer: Andreas Agne
+-- 
+-- Create Date:    06:26:33 02/15/2009 
+-- Design Name: 
+-- Module Name:    dcrfifo - Behavioral 
+-- Project Name:   Diplomarbeit
+-- Target Devices: Virtex2Pro
+-- Tool versions: 
+-- Description: 
+--
+-- Dependencies: 
+--
+-- Revision: 
+-- Revision 0.01 - File Created
+-- Additional Comments: 
+--
+----------------------------------------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+---- Uncomment the following library declaration if instantiating
+---- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity dcrfifo is
+	generic (
+		C_DCR_BASEADDR :     std_logic_vector := "1111111111";
+		C_DCR_HIGHADDR :     std_logic_vector := "0000000000";
+		C_DCR_AWIDTH   :     integer          := 10;
+		C_DCR_DWIDTH   :     integer          := 32;
+		C_NUM_REGS     :     integer          := 2
+	);
+	port ( -- the DCR bus interface
+		clk            : in  std_logic;
+		reset          : in  std_logic;             -- high active synchronous
+		o_dcrAck       : out std_logic;
+		o_dcrDBus      : out std_logic_vector(0 to C_DCR_DWIDTH-1);
+		i_dcrABus      : in  std_logic_vector(0 to C_DCR_AWIDTH-1);
+		i_dcrDBus      : in  std_logic_vector(0 to C_DCR_DWIDTH-1);
+		i_dcrRead      : in  std_logic;
+		i_dcrWrite     : in  std_logic
+	);
+
+end dcrfifo;
+
+architecture Behavioral of dcrfifo is
+	-- address of add register (write only)
+	constant ADDR_ADD : std_logic_vector := C_DCR_BASEADDR;
+	-- address of sum register (read only)
+	constant ADDR_ACC : std_logic_vector := C_DCR_BASEADDR + 1;
+	-- sum register
+	signal accum : std_logic_vector(0 to C_DCR_DWIDTH-1);
+	-- duplicate of o_dcrAck
+	signal dcrAck : std_logic;
+begin
+
+	-- bypass mux as in UG018 page 105
+	o_dcrDBus <= accum when i_dcrRead = '1' and i_dcrAbus = ADDR_ACC else i_dcrDBus;
+	-- duplicate signal assignment
+	o_dcrAck <= dcrAck;
+	
+	-- process for synchronous generation of o_dcrAck signal
+	-- and handling of write requests
+	process (clk, reset, i_dcrRead, i_dcrWrite)
+	begin
+		if reset = '1' then
+			accum <= (others => '0');
+			dcrAck <= '0';
+		elsif rising_edge(clk) then
+			-- synchronous ACK
+			dcrAck <= '0';
+			if i_dcrRead = '1' and i_dcrABus = ADDR_ACC then
+				dcrAck <= '1';
+			-- write request
+			elsif i_dcrWrite = '1' and i_dcrABus = ADDR_ADD then
+				dcrAck <= '1';
+				-- read from bus in the first cycle of the write request
+				if dcrAck = '0' then
+					accum <= accum + i_dcrDBus;
+				end if;
+			end if;
+		end if;
+	end process;
+end Behavioral;
+

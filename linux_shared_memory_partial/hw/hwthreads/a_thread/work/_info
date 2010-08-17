@@ -1,0 +1,36 @@
+m255
+13
+cModel Technology
+d/test_partial_reconfig/opb_eth_tft_cf/hw/shared_new_make/hw/hwthreads/a_thread
+Ea_thread
+w1281338937
+DP reconos_v2_01_a reconos_pkg 1AOP8CknK:PIPC[O06B5A3
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Fa_thread.vhd
+l0
+L17
+V=ESdQi@9j@WF1LkE9I4U00
+OE;C;6.1e;31
+32
+tExplicit 1
+Abehavioral
+DP reconos_v2_01_a reconos_pkg 1AOP8CknK:PIPC[O06B5A3
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work a_thread =ESdQi@9j@WF1LkE9I4U00
+l52
+L40
+VVEo1IgP3_E2IZ[?;hH8An1
+OE;C;6.1e;31
+32
+M5 ieee std_logic_1164
+M4 ieee std_logic_unsigned
+M3 ieee std_logic_arith
+M2 ieee numeric_std
+M1 reconos_v2_01_a reconos_pkg
+tExplicit 1

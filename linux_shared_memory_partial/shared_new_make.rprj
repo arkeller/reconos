@@ -1,0 +1,18 @@
+# ReconOS project file (format v1.00.a)
+EDK_BASE_DIR = hw/reference_design
+LAYOUT = shared_new_make.lyt
+HW_THREAD_DIR = hwthreads
+PAROPTS = -ol high -w
+MAPOPTS = -ol high -timing
+# add your static threads here. A slot will be created for each static thread
+#STATIC_THREADS=test_thread
+
+# for PR designs, uncomment the following:
+#EDK_BASE_DIR = $(RECONOS)/hw/refdesigns/9.2/xup/xup_light_pr
+## add your dynamic threads here (don't forget to remove the static ones, if
+## necessary). The number of dynamic slots will be determined from your layout
+## file
+DYNAMIC_THREADS=test_thread a_thread
+ADDTHREAD_OPTS = -o sys_clk_s
+MAKETOP_OPTS = --no-slot-bufg
+
